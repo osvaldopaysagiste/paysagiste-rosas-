@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paysagiste Rosas Inc.</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* HEADER /
+header {
+    background: url('https://images.unsplash.com/photo-1598902108854-10e335adac99') center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+header h1 { font-size: 45px; }
+header p { font-size: 20px; }
+
+.btn {
+    background: #2e7d32;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/ SECTIONS /
+section {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+h2 { text-align: center; }
+
+/ SERVICES /
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 220px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/ GALLERY /
+.gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+}
+
+/ BEFORE AFTER /
+.before-after {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.before-after img {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 10px;
+}
+
+/ CONTACT /
+.contact {
+    text-align: center;
+    font-size: 18px;
+}
+
+/ FOOTER /
+footer {
+    background: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/ WHATSAPP FLOAT */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Paysagiste Rosas Inc.</h1>
+    <p>Aménagement paysager professionnel à Montréal</p>
+    <a class="btn" href="https://wa.me/14383645864">Obtenir une soumission</a>
+</header>
+
+<section>
+    <h2>Nos Services</h2>
+    <div class="services">
+        <div class="card">🌿 Conception de jardins</div>
+        <div class="card">🌱 Installation de gazon</div>
+        <div class="card">🧱 Pavé-uni</div>
+        <div class="card">🚜 Nettoyage de terrain</div>
+    </div>
+</section>
+
+<section>
+    <h2>Avant / Après</h2>
+    <div class="before-after">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994">
+        <img src="https://images.unsplash.com/photo-1597007030739-6d2e7f9c7c1b">
+    </div>
+</section>
+
+<section>
+    <h2>Galerie</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01">
+        <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+    </div>
+</section>
+
+<section>
+    <h2>Pourquoi nous choisir?</h2>
+    <p style="text-align:center;">
+        Entreprise locale à Montréal offrant un service rapide, professionnel et de haute qualité.
+        Nous transformons vos idées en réalité.
+    </p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="contact">
+        <p>📞 438-364-5864</p>
+        <p>📍 Montréal et environs</p>
+        <a class="btn" href="https://wa.me/14383645864">WhatsApp</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Paysagiste Rosas Inc.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/14383645864">💬</a>
+
+</body>
+</html>
